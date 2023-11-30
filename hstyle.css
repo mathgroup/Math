@@ -17,5 +17,52 @@ body {
         height: 80px;
     }
     
-
-
+    body {
+        background-image:url("bak1.jpg");
+        color: #333; 
+         
+    }
+    
+    h1 {
+      color: rgb(255, 255, 255);
+    }
+    #a0 p {
+        color: rgb(218, 206, 184);
+        font-size: 25px;
+    }
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-top: 90px;
+    }
+    #a0
+    {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+    #a0 p {
+        color: rgb(218, 206, 184);
+        font-size: 25px;
+    }
+    video{
+    
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 300px;
+    }
+    @media only screen and (max-width: 600px) {
+        #a0 {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        #a0 p {
+            font-size: 16px;
+        }
+    
+        video {
+            margin-bottom: 10px;
+        }
+    }

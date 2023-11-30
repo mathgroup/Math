@@ -126,5 +126,18 @@ body, html {
  
 body{
     background-image: url("bak1.jpg");
+    background-size: cover;
 }
-  
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .main-btn {
+        font-size: 1em;
+    }
+}

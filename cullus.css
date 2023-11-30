@@ -255,7 +255,7 @@ textarea::-webkit-scrollbar-thumb{
     header {
         background-color: #060b1d;
                width: 100%;
-       height: 55PX;
+       height: 45PX;
        position: fixed;
        z-index: 999;
        display: flex;
@@ -341,4 +341,21 @@ textarea::-webkit-scrollbar-thumb{
     
     .error {
        color: #ff0000;
+    }
+    @media only screen and (max-width: 768px) {
+        .container form {
+            padding: 10px;
+        }
+    
+        .container form h1 {
+            font-size: 20px;
+        }
+    
+        #fot {
+            margin-bottom: 30px;
+        }
+    
+        footer {
+            padding: 30px 20px;
+        }
     }
