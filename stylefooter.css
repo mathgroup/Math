@@ -1,0 +1,126 @@
+
+#fot{
+    width: 100%;
+}
+
+  footer{
+          width: 100%; 
+          
+          position: absolute;
+           background: linear-gradient(to right, #00093c, #2d0b00); 
+           color: #fff;
+            padding: 100px 30px;
+             border-top-left-radius: 125px; 
+             font-size: 13px;
+              line-height: 20px;
+    }
+    .row{ width: 85%; 
+        margin: auto; 
+         display: flex; 
+          flex-wrap: wrap; 
+           align-items: flex-start; 
+            justify-content: space-between;
+    }
+    
+    .col{ flex-basis: 25%; 
+        
+        padding: 10px; 
+    }
+    .COL:nth-child(2),.col:nth-child(3){
+       flex-basis: 15%;
+    }
+    
+    .col h3{ 
+        width: fit-content; 
+         margin-bottom: 40px;
+          position:  relative;
+    }
+           .email-id{ 
+                width: fit-content; 
+                margin: 40px 0; 
+                 border-bottom: 1px solid #ccc;
+           }
+    ul li{
+    list-style: none; 
+     margin-bottom: 12px; 
+    } 
+    ul li a{ text-decoration: none; 
+        color: #fff
+    }
+    footer form {
+    padding-bottom: 15px; 
+     display: flex; 
+      align-items: center; 
+       justify-content: space-between; 
+        border-bottom: 1px solid #ccc; 
+         margin-bottom: 50px; 
+        } 
+         form .far{
+            font-size: 18px; 
+          margin-right: 10px; 
+       } 
+       footer form input {
+        width: 100%; 
+         background: transparent; 
+          color: #ccc; 
+           border: 0; 
+            outline: none; 
+            } 
+             form button {
+             background: transparent; 
+              border: 0; 
+               outline: none; 
+                cursor: pointer;
+            }
+    
+    form button .fast {
+    font-size: 16px; 
+     color: #ccc;  
+    }
+      .social-icons .fab {
+       width: 40px; 
+        height: 40px; 
+         border-radius: 50%; 
+          text-align: center; 
+           line-height: 40px;
+    border-radius: 50%; 
+    text-align: center; 
+     line-height: 40px; 
+      font-size: 20px; 
+       color: #000; 
+        background: #fff; 
+        margin-right: 15px; 
+         cursor: pointer; 
+      }
+       hr {
+           width: 90%; 
+            border: 0; 
+             border-bottom: 1px solid #ccc;
+    border-bottom: 1px,0
+    #ccc; margin: 20px auto; 
+          }
+    .copyright {
+     text-align: center; 
+     margin-bottom: 10px;
+    } 
+     .underline{ 
+       width: 100%; 
+        height: Spx; 
+         background: #767676; 
+          border-radius: 3px; 
+           position: absolute; 
+            top: 25px; 
+            left: 0;
+            overflow: hidden;
+     }
+    .underline span {
+        width: 15px;
+        background: #fff; 
+        border-radius: 3px; 
+         height: 100%; 
+          position: absolute; 
+           top:0;
+           left:10px;
+           animation: moving 2s linear infinite;
+    }
+    

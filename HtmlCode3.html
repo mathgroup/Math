@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylenameprogramers.css">
+
+
+
+    <title>Programers</title>
+    <style>
+h2{
+color: darkgreen;
+margin-right: 180PX;
+font-size: 36PX;
+
+}
+
+
+    </style>
+
+ 
+
+    <meta charset="UTF-8">
+    <title>Programers names</title>
+    <script src="https://kit.fontawesome.com/fff4c8d542.js" crossorigin="anonymous"></script>   
+
+</head>
+<body>
+    
+    <div id="her">
+    <header>
+        <a href="#" class="logo"  onclick="location.href='HtmlCode1.html';">Math</a>
+        <a href="#" class="name_page"  onclick="location.href='HtmlCode3.html';">Programers Name</a>
+        <nav class="navigation" > 
+            <a href="#services" onclick="location.href='HtmlCode5.html';">About</a>
+            <a href="#projects" onclick="location.href='HtmlCode3.html';">Programers</a>
+            <a href="#contact" onclick="location.href='HtmlCode2.html';">History of Mathematics</a>
+</nav>
+
+</header>
+</div>
+<div id="bod">
+    
+    <h2 style="text-align: center;"> <br>The Programers ADD this wep :</h2>
+    <script>
+        function shuffleArray(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        }
+        function displayMembers(id="namelist") {
+            var members = ["Saad Al-buqmi","Mohammad Al-Qurashi","Ayed Al-Atwi"];
+            var shuffledMembers = shuffleArray(members);
+            
+            var membersList = document.getElementById("members");
+            membersList.innerHTML = "";  // تفريغ القائمة
+            
+            for (var i = 0; i < shuffledMembers.length; i++) {
+                var listItem = document.createElement("li");
+                listItem.textContent = shuffledMembers[i];
+                membersList.appendChild(listItem);
+            }
+        }
+        window.onload = displayMembers; 
+       
+    </script>
+    
+     <ul id="members"></ul> 
+     </div>
+   
+<div id="fot">
+    <footer> 
+        <div class="row"> <div class="col"> 
+            <i class="fa-solid fa-calculator"></i>
+                     <p>Mathematics is a vast and interesting world that we must delve into in order to love it, we have provided you on this site a summary of mathematics </div> 
+               <div class="col"> 
+                    <h3>Officec</h3> 
+     
+    <p>Tabouk KSA</p> 
+    <p class="email-id">allq11221@gmail.com</p> 
+     <h4>0502740637</h4> 
+      </div> 
+       <div class="col"> 
+        <h3>Links</h3> 
+         <ul> 
+    
+          <li><a href="#1" onclick="location.href='HtmlCode1.html';">Home</a></li> 
+                <li><a href="#1" onclick="location.href='HtmlCode5.html';">About Us</a></li> 
+             
+    </ul> 
+    </div> 
+    <div class="col">
+    <h3>Newsletter</h3> 
+    <form> 
+        <p>you need heelp?</p>
+        <a href="#contact" class="fa-solid fa-circle-arrow-right fa-xl" style="color: #ffffff;text-decoration: none; "onclick="location.href='HtmlCode4.html';"></a>
+    </form> 
+    
+    
+    
+    </div> 
+    </div> 
+     <hr>
+    <p class="copyright">Math wep 2023 All Rights Rserved</p>
+    </footer>
+    </div>
+    
+</body>
+</html>
