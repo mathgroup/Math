@@ -10,7 +10,7 @@ body {
     #bod{
    
 
-        height: 700px;
+        height: 600px;
     
     }
     #fot{
@@ -172,26 +172,6 @@ border-bottom: 1px,0
        left:10px;
        animation: moving 2s linear infinite;
 }
-@keyframes moving{
-0%{
-   left: -20px;
-}
-100%{
-   left: -100%;
-}
-
-}
-@media (max-width:700px){
-   footer{
-       bottom:unset ;
-   }
-   .col{
-       flex-basis:100% ;
-   }
-   .col:nth-child(2),.col:nth-child(3){
-       flex-basis: 100%;
-   }
-}
 
 
 
@@ -292,9 +272,27 @@ input[type="submit"]:hover {
 }
 
 
+@keyframes moving{
+0%{
+   left: -20px;
+}
+100%{
+   left: -100%;
+}
+
+}
+@media (max-width:700px){
+
+   .col{
+       flex-basis:100% ;
+   }
+   .col:nth-child(2),.col:nth-child(3){
+       flex-basis: 100%;
+   }
 
 
-@media only screen and (max-width: 600px) {
+
+
    header {
        padding: 10px;
    }
@@ -316,13 +314,25 @@ input[type="submit"]:hover {
    h1 {
        font-size: 1.5em;
    }
+   #bod
+   {
+    margin-bottom: 100px;
+   }
 
    #members li {
        font-size: 1em;
+       
    }
 
    footer {
        padding: 10px;
+       margin-top: 10000;
+   }
+   h2{
+    margin-bottom: 1000px;
+   }
+   #bod{
+    height: 1200px;
    }
 }
 

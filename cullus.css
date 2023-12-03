@@ -95,7 +95,7 @@ body {
     font-size: 15px;
     padding: 10px;
     outline: none;
-    min-width: 600px;
+    min-width: 300px;
     max-width: 600px;
     min-height: 80px;
     max-height: 80px;
@@ -343,12 +343,21 @@ textarea::-webkit-scrollbar-thumb{
        color: #ff0000;
     }
     @media only screen and (max-width: 768px) {
-        .container form {
-            padding: 10px;
-        }
+       
+.container form{
+    width: 370px;
+    height: 500px;
+    padding: 10px;
+}
+
+.container form input{
+    width: 160px;
+    height: 60px;
+    padding-left: 10px;
+}
     
         .container form h1 {
-            font-size: 20px;
+            font-size: 10px;
         }
     
         #fot {
@@ -358,4 +367,24 @@ textarea::-webkit-scrollbar-thumb{
         footer {
             padding: 30px 20px;
         }
+  
+
+        .navigation a {
+        
+           font-size: 10px;
+        }
+        .logo{
+        
+           font-size: 1em;
+        }
+    
+    h3,h4,li,p{
+        font-size: 8px;
+        
     }
+        .container form #button{
+            margin-top: 5px;
+            margin-right: 250px;
+
+        }
+}

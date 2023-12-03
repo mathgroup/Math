@@ -4,7 +4,7 @@ body {
 section {
     margin-top: 20px;
 }
-h2 {
+h2,h5 {
     color: #ffffff;
     margin-bottom: 30px;
 }
@@ -57,7 +57,7 @@ h2 {
     max-width: 50%;
     font-size: 24px;
 }
-h2{
+h2,h5{
     font: italic;
 
     font-size: 55px;
@@ -109,13 +109,42 @@ th {
 @media only screen and (max-width: 768px) {
     p {
         margin: 0 10px;
+        font-size: 15px;
     }
 
     #bod li, .s, .one {
         max-width: 100%;
+        font-size: 18px;
     }
 
     h2, h1 {
         margin-left: 10px;
+        font-size: 20px;
     }
+    #bod{
+        height: 330;
+        font-size:17px ;
+        margin-left: 10px;
+        margin-right: 10px;
+    margin-bottom: 100px;
+    }
+    footer p{
+        font-size: 6px;
+    }
+    td{
+        font-size: 15px;
+
+    }
+    h5{
+        margin-top: 100px;
+        font-size: 20px;
+
+
+
+    }
+    #tabl{
+        height: 600px;
+        margin-top: 400px;
+    }
+
 }    

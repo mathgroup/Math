@@ -82,7 +82,21 @@ body{
   background-size: cover;
 }
 @media only screen and (max-width: 768px) {
+  #bod{
+    height:6400px ;
+  }
+  h2{
+    margin-left: 10px;
+  }
     .card {
-        width: 100%; /* Make cards take full width on smaller screens */
+        width: 10.25em;
+
+    }
+    .info h3{
+        font-size: 1.5em;
+
+    }
+    #bod p{
+        font-size:20px ;
     }
 }
