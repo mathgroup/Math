@@ -63,6 +63,11 @@ body{
          border-top-left-radius: 125px; 
          font-size: 13px;
           line-height: 20px;
+
+      
+            padding: 10px;
+            margin-top: 250px;
+            height: 600px;   
 }
 .row{ width: 85%; 
     margin: auto; 
@@ -321,20 +326,17 @@ input[type="submit"]:hover {
 
    #members li {
        font-size: 1em;
+   }
        
-   }
-
-   footer {
-       padding: 10px;
-       margin-top: 10000;
-   }
-   h2{
-    margin-bottom: 1000px;
-   }
-   #bod{
-    height: 1200px;
-   }
+footer {
+    padding: 10px;
 }
+   }
+   
+   
+
+
+
 
 
 
